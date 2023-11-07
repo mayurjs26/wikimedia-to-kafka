@@ -2,7 +2,7 @@ plugins {
     id 'java'
 }
 
-group 'io.conduktor.demos'
+group 'com.demos'
 version '1.0-SNAPSHOT'
 
 repositories {

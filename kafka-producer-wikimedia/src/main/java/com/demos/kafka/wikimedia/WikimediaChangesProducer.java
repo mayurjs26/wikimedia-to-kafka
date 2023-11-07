@@ -1,4 +1,4 @@
-package io.conduktor.demos.kafka.wikimedia;
+package com.demos.kafka.wikimedia;
 
 import com.launchdarkly.eventsource.EventHandler;
 import com.launchdarkly.eventsource.EventSource;

@@ -1,4 +1,4 @@
-package io.conduktor.demos.kafka.streams.wikimedia.processor;
+package com.demos.kafka.streams.wikimedia.processor;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.JsonNode;

@@ -1,8 +1,8 @@
-package io.conduktor.demos.kafka.streams.wikimedia;
+package com.demos.kafka.streams.wikimedia;
 
-import io.conduktor.demos.kafka.streams.wikimedia.processor.BotCountStreamBuilder;
-import io.conduktor.demos.kafka.streams.wikimedia.processor.EventCountTimeseriesBuilder;
-import io.conduktor.demos.kafka.streams.wikimedia.processor.WebsiteCountStreamBuilder;
+import com.demos.kafka.streams.wikimedia.processor.BotCountStreamBuilder;
+import com.demos.kafka.streams.wikimedia.processor.EventCountTimeseriesBuilder;
+import com.demos.kafka.streams.wikimedia.processor.WebsiteCountStreamBuilder;
 import org.apache.kafka.common.serialization.Serdes;
 import org.apache.kafka.streams.KafkaStreams;
 import org.apache.kafka.streams.StreamsBuilder;
