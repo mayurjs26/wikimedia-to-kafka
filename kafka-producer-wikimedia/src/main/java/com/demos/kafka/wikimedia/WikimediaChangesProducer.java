@@ -29,14 +29,9 @@ public class WikimediaChangesProducer {
         String url = "https://stream.wikimedia.org/v2/stream/recentchange";
         EventSource.Builder builder = new EventSource.Builder(eventHandler, URI.create(url));
         EventSource eventSource = builder.build();
-
-
         // start the producer in another thread
         eventSource.start();
-
         // we produce for 10 minutes and block the program until then
         TimeUnit.MINUTES.sleep(10);
-
-
     }
 }
